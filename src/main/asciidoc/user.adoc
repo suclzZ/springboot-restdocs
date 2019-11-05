@@ -1,0 +1,63 @@
+== 用户管理
+
+=== 接口说明
+    系统用户的增删改查
+
+=== 接口调用
+
+[[resources-index-access]]
+==== Accessing the index
+
+A `GET` request is used to access the index
+
+operation::index-example[snippets='response-fields,http-response,links']
+
+==== 保存用户
+
+include::{snippets}/saveUser/curl-request.adoc[]
+
+include::{snippets}/saveUser/http-request.adoc[]
+
+include::{snippets}/saveUser/http-response.adoc[]
+
+include::{snippets}/saveUser/httpie-request.adoc[]
+
+==== 根据ID查询用户
+
+include::{snippets}/getUser/curl-request.adoc[]
+
+include::{snippets}/getUser/http-request.adoc[]
+
+include::{snippets}/getUser/http-response.adoc[]
+
+include::{snippets}/getUser/httpie-request.adoc[]
+
+==== 查询用户
+
+include::{snippets}/getUsers/curl-request.adoc[]
+
+include::{snippets}/getUsers/http-request.adoc[]
+
+include::{snippets}/getUsers/http-response.adoc[]
+
+include::{snippets}/getUsers/httpie-request.adoc[]
+
+==== 根据ID删除用户
+
+include::{snippets}/deleteUser/curl-request.adoc[]
+
+include::{snippets}/deleteUser/http-request.adoc[]
+
+include::{snippets}/deleteUser/http-response.adoc[]
+
+include::{snippets}/deleteUser/httpie-request.adoc[]
+
+==== 错误
+
+include::{snippets}/error/curl-request.adoc[]
+
+include::{snippets}/error/http-request.adoc[]
+
+include::{snippets}/error/http-response.adoc[]
+
+include::{snippets}/error/httpie-request.adoc[]
